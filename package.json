@@ -16,7 +16,8 @@
     "react-dom": "^19.0.0",
     "react-icons": "^5.5.0",
     "react-xarrows": "^2.0.2",
-    "sonner": "^2.0.3"
+    "sonner": "^2.0.3",
+    "zustand": "^5.0.4"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
