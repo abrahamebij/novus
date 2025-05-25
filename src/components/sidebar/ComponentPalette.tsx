@@ -14,7 +14,7 @@ function ComponentButton({ name, icon }: ComponentButtonProps) {
   return (
     <button
       onClick={() => addComponent(name)}
-      className="w-fit flex items-center gap-2 py-2 px-2 hover:bg-gray-200 rounded-lg transition-colors"
+      className="w-fit flex items-center gap-2 py-2 px-2 hover:bg-gray-100 rounded-lg transition-colors"
       title={`Add ${name}`}
     >
       <div className="bg-gray-200 p-2 text-xl rounded">{icon}</div>
@@ -25,7 +25,9 @@ function ComponentButton({ name, icon }: ComponentButtonProps) {
 export default function ComponentPalette() {
   return (
     <section>
-      <h2 className="text-xl font-bold mb-3">Circuit Elements</h2>
+      <h2 className="text-xl font-bold mb-3 uppercase">Novus</h2>
+
+      <h2 className="text-lg font-semibold mb-1">Circuit Elements</h2>
       <div className="space-y-2 flex items-start">
         <ComponentButton name="Voltage Source" icon={<TbBolt />} />
         <ComponentButton name="Resistor" icon={<TbCircuitResistor />} />
