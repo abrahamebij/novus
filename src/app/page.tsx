@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <div className="flex">
       <Sidebar />
-      <main className="ml-64 flex-1 h-screen bg-gray-50">
+      <main className="ml-72 flex-1 h-screen bg-gray-50">
         <CircuitCanvas />
       </main>
     </div>
