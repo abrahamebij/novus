@@ -13,7 +13,7 @@ It’s a lightweight circuit editor created for **[CodePi](https://codepi-ic-202
 
 ### Video
 
-![Novus Demo](https://github-production-user-asset-6210df.s3.amazonaws.com/91433818/447466521-4d554544-c4dc-4379-99d2-8ab8eec2d75c.gif?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20250526%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250526T074733Z&X-Amz-Expires=300&X-Amz-Signature=974d29498c0db01110464e1be335739c470398b06c026b122bdd346d21daae4d&X-Amz-SignedHeaders=host)
+![Novus Demo](https://github.com/user-attachments/assets/75347ebf-1b26-4f86-ad3e-315b73275c92)
 
 ---
 
