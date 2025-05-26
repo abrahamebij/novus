@@ -1,36 +1,90 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# ⚡ Novus
 
-## Getting Started
+**Novus** — Latin for *"new"* — represents a fresh, intuitive approach to learning and building circuits.  
+It’s a lightweight circuit editor created for **[CodePi](https://codepi-ic-2025-1.devpost.com/)** hackathon on **[Devpost](https://devpost.com)** that allows you to visually connect components, simulate ideas, and explore the fundamentals of electronics — all in your browser.
 
-First, run the development server:
+---
+
+## 🎥 Demo
+
+### Link
+
+[https://novus-circuit.vercel.app/](https://novus-circuit.vercel.app/)
+
+### Video
+
+![Novus Demo](https://github-production-user-asset-6210df.s3.amazonaws.com/91433818/447466521-4d554544-c4dc-4379-99d2-8ab8eec2d75c.gif?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20250526%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250526T074733Z&X-Amz-Expires=300&X-Amz-Signature=974d29498c0db01110464e1be335739c470398b06c026b122bdd346d21daae4d&X-Amz-SignedHeaders=host)
+
+---
+
+## 🚀 Features
+
+- 🧱 Drag and drop components like resistors and voltage sources
+- 🔌 Click-to-connect terminal logic with real-time wire previews
+- ✍️ Dynamic SVG-based wire drawing
+- 🧠 Clean state management via Zustand
+- 🧰 Editable component properties
+- 🧼 Polished interface and UX
+- 🧹 Delete components or wires seamlessly
+
+---
+
+## 🛠️ Built With
+
+- [Next.js](https://nextjs.org/)  
+- [TailwindCSS](https://tailwindcss.com/)  
+- [Zustand](https://github.com/pmndrs/zustand)  
+- [React Icons](https://react-icons.github.io/react-icons/)
+- SVG (for live wire rendering and connection logic)  
+
+---
+
+## 📦 Getting Started
+
+### Step 1
+
+```bash
+git clone https://github.com/abrahamebij/novus
+```
+
+### Step 2
+
+```bash
+cd novus
+```
+
+### Step 3
+
+```bash
+npm install
+```
+
+### Step 4
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🧠 Inspiration
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+I built Novus to simplify circuit-building for STEM learners and hobbyists.
 
-## Learn More
+Most tools in this space are either too complex or too abstract — Novus bridges the gap by combining technical accuracy with visual clarity
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📃 License
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+MIT — free to use, learn, and remix.
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🔮 Roadmap
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Circuit simulation engine (Ohm’s Law, Series/Parallel logic)
+- More components (LEDs, switches, capacitors, etc.)
+- Pan & Zoom
+- Export/share circuits
+- Dark mode
